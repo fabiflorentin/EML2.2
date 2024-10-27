@@ -8,7 +8,7 @@ Github Action example to update AWS lambda code using AWS ECR image .
 
 ![image](https://github.com/user-attachments/assets/0727fcf7-e4b5-49f9-a3bf-b1eb2e1ae0dd)
 
-###Steps:
+### Steps:
 * Once code is committed to main branch, the pipeline is started;
 * Using the AWS secrets stored at github actions secrets, the pipeline downloads the model from S3;
 * Build the code for DetectPlate and store it to AWS ECR;
